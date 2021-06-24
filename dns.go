@@ -173,7 +173,7 @@ func (q *DNSQuestion) ToByte() ([]byte, error) {
 }
 
 const (
-	DNSClassIn = 0x0001
+	DNSClassIn = 1
 )
 
 // DNSResourceRecode 回答字段，授权字段，附加字段
